@@ -1,0 +1,313 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+/* i have to remeber to set a display for each element lol */
+body {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  display: flex;
+  width: 100vw;
+  height: fit-content;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+
+  background-color: #d2d2d2;
+}
+
+.reference-link {
+  position: relative;
+  color: initial;
+}
+
+.larger-text {
+  font-size: 1em;
+}
+
+.small-text {
+  font-size: 0.6em;
+}
+
+.indent-left {
+  position: relative;
+  margin: auto 20px;
+}
+
+.sub-indent {
+  position: relative;
+  margin: auto 20px;
+}
+
+.page-divider {
+  position: relative;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+}
+
+#navbar {
+  overflow-y: scroll;
+  position: fixed;
+  display: block;
+  width: 25vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
+  border: none;
+  margin: 0;
+  padding: 0;
+  margin-top: 0;
+  padding-top: 0;
+  color: #fff;
+  background-color: #343549;
+}
+
+.nav-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  text-align: center;
+  font-size: 1.2em;
+  top: 0;
+  left: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+}
+
+#nav-header-h {
+  position: relative;
+  display: block;
+  top: 0;
+  left: 0;
+  color: #fff;
+  background-color: transparent;
+}
+
+.nav-link {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  text-align: left;
+  text-decoration: none;
+  top: 0px;
+  left: 0;
+  margin: 5px auto;
+  padding: 1px 6px;
+
+  color: #fff;
+  background-color: transparent;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+  color: #fff;
+  background-color: #000;
+}
+
+/* main doc */
+#main-doc {
+  overflow-y: scroll;
+  position: fixed;
+  display: block;
+  width: 75vw;
+  height: 100vh;
+  top: 0;
+  right: 0;
+
+  color: #000;
+  background-color: #d8d8d8;
+}
+
+/* main section */
+.main-section {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: fit-content;
+  margin: 6px auto;
+  padding: 0;
+
+  color: #000;
+  background-color: transparent;
+}
+
+.main-section-header {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 10px;
+
+  color: #000;
+  background-color: transparent;
+}
+
+.section-p {
+  position: relative;
+  display: block;
+  width: 90%;
+  height: fit-content;
+  font-weight: 550;
+  margin: 10px 10px;
+  padding: 5px 10px;
+
+  background-color: transparent;
+}
+
+.section-ul {
+  position: relative;
+  display: block;
+  width: 80%;
+  height: auto;
+  text-align: left;
+  left: 15px;
+  top: 0;
+  margin: 10px 10px;
+  padding: 10px 10px;
+}
+
+/* sub-section-ul {
+  position: relative;
+  width: 100%;
+} */
+
+.section-img-container {
+  position: relative;
+  display: block;
+  width: 80%;
+  height: auto;
+  left: 15px;
+  margin: 10px 10px;
+  padding: 10px 10px;
+
+  background-color: transparent;
+}
+
+#nesting-img-caption {
+  position: relative;
+  display: block;
+  width: fit-content;
+  height: auto;
+  margin: 0px 10px;
+  padding: 0 8px;
+}
+
+#nesting-img {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 6px 8px;
+  padding: 0;
+  left: 10px;
+  top: 0;
+  font-weight: 550;
+  border-radius: 10px;
+
+  color: #000;
+  background-color: transparent;
+}
+
+.no-disc {
+  list-style-type: none;
+}
+
+.section-legend {
+  position: relative;
+  width: 100%;
+  height: auto;
+  font-size: 1.1em;
+  font-weight: 640;
+  margin: 0;
+  padding: 0;
+
+  background-color: transparent;
+}
+
+.section-ul .section-li {
+  position: relative;
+  width: 100%;
+  height: fit-content;
+  margin: 6px 8px;
+  padding: 0;
+  left: 10px;
+  top: 0;
+  font-weight: 550;
+
+  color: #000;
+  background-color: transparent;
+}
+
+.code-section-container {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  margin: 10px 0;
+  padding: 6px 10px;
+
+  background-color: #c9c5c5;
+}
+
+.code-section-code-text {
+  position: relative;
+  display: block;
+  width: 100%;
+  font-size: 1.2em;
+  font-weight: 750;
+  color: #ff0000;
+}
+
+#references {
+  color: #000;
+}
+
+
+
+#footer {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  margin: 10px auto;
+  margin-bottom: 0;
+  padding: 15px 12px;
+
+  background-color: #343549;
+}
+
+#footer a {
+  font-size: 1.2em;
+  font-weight: 600;
+  color: #fff;
+}
+
+
+@media only screen and (max-width: 550px) {
+  #main-doc {
+    margin-left: -10px;
+  }
+}
