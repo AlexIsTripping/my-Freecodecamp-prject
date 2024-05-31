@@ -194,10 +194,10 @@ header button:hover {
 }
 
 /* features */
-#features {
+#Features {
   position: relative;
-  display: flex;
-  width: 90vw;
+  display: block;
+  width: 100%;
   height: fit-content;
   justify-content: center;
   background-color: transparent;
@@ -396,7 +396,7 @@ header button:hover {
   background-color: #000;
 }
 
-#contact-form {
+#form {
   position: relative;
   display: block;
   width: 50%;
@@ -555,4 +555,10 @@ header button:hover {
 .social-icon:hover {
   background-color: #fff;
   color: #000;
+}
+
+@media screens and (min-width: 400px) {
+  .main-content {
+    display: block;
+  }
 }
