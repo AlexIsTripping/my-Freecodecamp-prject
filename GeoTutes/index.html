@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="shortcut icon" href="./imgs/logo-icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Geography Tutoring</title>
+  </head>
+  <body>
+    <!-- main -->
+    <main class="main-content">
+      <header id="header">
+        <!-- navbar -->
+        <nav id="nav-bar">
+          <span class="logo-banner-container">
+            <img
+              id="header-img"
+              src="./imgs/logo-banner.png"
+              alt="Logo Banner"
+            />
+            <script>
+              // redirect to home page
+              const logoBannerBtn = document.getElementById("header-img");
+              logoBannerBtn.onclick = () => {
+                window.location.href = "./index.html";
+              };
+            </script>
+          </span>
+          <!-- links -->
+          <ul class="nav-links-ul">
+            <li class="nav-links-li">
+              <a href="#About" class="nav-link">About</a>
+            </li>
+            <li class="nav-link-li">
+              <a href="#Features" class="nav-link">Features</a>
+            </li>
+            <li class="nav-link-li">
+              <a href="#Pricing" class="nav-link">Pricing</a>
+            </li>
+
+            <!-- donate/contact buttons -->
+            <!-- donate btn -->
+            <li class="nav-link-li">
+              <button type="button" class="nav-button donate">Donate</button>
+            </li>
+            <!-- contact btn -->
+            <li class="nav-link-li">
+              <button type="button" class="nav-button contact">Contact</button>
+            </li>
+            <!-- redirecting buttons -->
+            <script>
+              const donateBtn = document.querySelector(".donate");
+              const contactBtn = document.querySelector(".contact");
+              // redirect to patreon
+              donateBtn.onclick = () => {
+                window.open("https://patreon.com/AlexIsTripping77", "_blank");
+              };
+              // redirect to #contact container
+              contactBtn.onclick = () => {
+                window.location.href = "#contact";
+              };
+            </script>
+          </ul>
+        </nav>
+      </header>
+      <!--about -->
+      <section class="main-section" id="About">
+        <!-- video -->
+        <figure class="video-container">
+          <iframe
+            src="https://www.youtube.com/embed/Hp0-YP3lADk"
+            id="video"
+            title="Geography DenmarkNow! "
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </figure>
+      </section>
+
+      <!-- features -->
+      <section class="main-section" id="Features">
+        <header class="main-section-header">
+          <h2 class="main-section-header-h1">
+            <marquee>Features That We Have, Totally Cuz This Is A 100% Legit Website, And Not Just For My Certification XD</marquee>
+          </h2>
+        </header>
+        <!-- feature card container => (online & in person tutoring) -->
+        <span class="feature-card-container card-1">
+          <!-- icon -->
+          <span class="feature-card-icon-container">
+            <i class="feature-card-icon icon-1 fa-solid fa-globe"></i>
+          </span>
+          <!-- description -->
+          <span class="feature-card-description-container">
+            <p class="feature-card-description">
+              Here at GEOTUTES we not only have online tutoring but we do in
+              fact also have in-person tutoring.
+            </p>
+          </span>
+        </span>
+        <!-- feature card container => (were secure) -->
+        <span class="feature-card-container card-2">
+          <span class="feature-card-icon-container">
+            <i class="feature-card-icon icon-2 fa-solid fa-lock"></i>
+          </span>
+          <!-- description -->
+          <span class="feature-card-description-container">
+            <p class="feature-card-description">
+              Here at GEOTUTES, We care about your sayfty as well as integrety,
+              or whatever this is a fake site lol so it doesnt really matter,
+              also, Mia Khalifah or Ur Mom ?
+            </p>
+          </span>
+        </span>
+        <!-- feature card container => () -->
+        <span class="feature-card-container card-3">
+          <span class="feature-card-icon-container">
+            <i class="feature-card-icon icon-3 fa-solid fa-user-group"></i>
+          </span>
+          <!-- description -->
+          <span class="feature-card-description-container">
+            <p class="feature-card-description">
+              Here at GEOTUTES we not only have online tutoring but we do in
+              fact also have in-person tutoring.
+            </p>
+          </span>
+        </span>
+      </section>
+
+      <!-- prices -->
+      <section class="main-section" id="Pricing">
+        <!-- bronze deal -->
+        <div class="pricing-card-container --bronze">
+          <!-- header -->
+          <header class="pricing-card-header">
+            <h2 class="pricing-card-heading">Bronze Package</h2>
+          </header>
+          <!-- benefits -->
+          <ul class="pricing-card-ul">
+            <legend class="pricing-card-ul-legend">Benefits</legend>
+            <li class="pricing-card-li">1 day a week of tutoring</li>
+            <li class="pricing-card-li">Access to Groupchat</li>
+            <li class="pricing-card-li">$500 USD / week</li>
+          </ul>
+          <!-- purchase btn -->
+          <button class="pricing-card-button --bronze-btn">Purchase</button>
+        </div>
+        <div class="seperator"></div>
+        <!-- silver deal -->
+        <div class="pricing-card-container --silver">
+          <!-- header -->
+          <header class="pricing-card-header">
+            <h2 class="pricing-card-heading">Silver Package</h2>
+          </header>
+          <!-- benefits -->
+          <ul class="pricing-card-ul">
+            <legend class="pricing-card-ul-legend">Benefits</legend>
+            <li class="pricing-card-li">2 days a week of tutoring</li>
+            <li class="pricing-card-li">Access to Mentor (2x week)</li>
+            <li class="pricing-card-li">Access to Groupchat</li>
+            <li class="pricing-card-li">$1000 USD / week</li>
+          </ul>
+          <!-- purchase btn -->
+          <button class="pricing-card-button --silver-btn">Purchase</button>
+        </div>
+        <div class="seperator"></div>
+        <!-- gold deal -->
+        <div class="pricing-card-container --gold">
+          <!-- header -->
+          <header class="pricing-card-header">
+            <h2 class="pricing-card-heading">Gold Package</h2>
+          </header>
+          <!-- benefits -->
+          <ul class="pricing-card-ul">
+            <legend class="pricing-card-ul-legend">Benefits</legend>
+            <li class="prices-card-li">6 days a week of tutoring</li>
+            <li class="prices-card-li">Access to Mentor (Infinte)</li>
+            <li class="prices-card-li">Access to Groupchat</li>
+            <li class="prices-card-li">$1500 USD / week</li>
+          </ul>
+          <!-- purchase btn -->
+          <button class="pricing-card-button --gold-btn">Purchase</button>
+        </div>
+      </section>
+
+      <section class="main-section" id="contact">
+        <form
+          id="contact-form"
+          action="https://www.freecodecamp.com/email-submit"
+          method="post"
+        >
+          <!-- header -->
+          <header id="contact-header">
+            <h2 id="contact-heading">Contact Us</h2>
+          </header>
+          <!-- data -->
+          <section class="contact-form-section">
+            <input
+              class="contact-form-input"
+              type="email"
+              name="email"
+              placeholder="Enter Email"
+              required
+            />
+            <textarea
+              class="contact-form-input text-aria"
+              name="comment"
+              id="comment"
+              placeholder="Enter Whatever You Want To Ask"
+            ></textarea>
+          </section>
+          <!-- buttons -->
+          <section class="contact-form-section">
+            <input
+              type="submit"
+              name="submit"
+              id="submit"
+              class="contact-form-input submit-btn"
+              value="Submit"
+            />
+          </section>
+        </form>
+        <!-- image -->
+        <figure class="form-img-fig">
+          <img
+            id="form-img"
+            src="./imgs/logo-banner-bg.png"
+            alt="Form Banner"
+          />
+        </figure>
+      </section>
+
+      <!-- footer -->
+      <footer class="main-section" id="footer">
+        <!-- icon -->
+        <span id="footer-icon-container">
+          <img
+            src="./imgs/logo-icon--bg.png"
+            alt="Logo Icon"
+            id="footer-icon"
+          />
+        </span>
+        <!-- copywrite -->
+        <span id="footer-p-container">
+          <p id="footer-p">© GEOTUTES, Created By Saadya Meegan . 2024</p>
+        </span>
+        <!-- follow me on social media -->
+        <span class="footer-socials-container">
+          <!-- youtube -->
+          <span class="social-icon-container">
+            <i class="social-icon yt-icon fa-brands fa-youtube"></i>
+          </span>
+          <!-- discord -->
+          <span class="social-icon-container">
+            <i class="social-icon discord-icon fa-brands fa-discord"></i>
+          </span>
+          <!-- twitter -->
+          <span class="social-icon-container">
+            <i class="social-icon x-icon fa-brands fa-x"></i>
+          </span>
+          <script>
+            const connectToSocialMedia = [
+              document.querySelector(".yt-icon"),
+              document.querySelector(".discord-icon"),
+              document.querySelector(".x-icon"),
+            ];
+            // redirect to my yt channel
+            connectToSocialMedia[0].onclick = () => {
+              window.open("https://youtube.com/@alexistripping", "_blank");
+            };
+            connectToSocialMedia[1].onclick = () => {
+              let discordName = [
+                "I",
+                "Wanna",
+                "Over",
+                "Complicate",
+                "Shit",
+                "x",
+              ];
+              alert(
+                "My discord is " +
+                  discordName[1].charAt(1).toUpperCase() +
+                  discordName[3].charAt(4) +
+                  discordName[2].charAt(2) +
+                  discordName[5].charAt(0) +
+                  discordName[0].charAt(0).toUpperCase() +
+                  discordName[4].charAt(0).toLowerCase() +
+                  "Tripping" +
+                  "#" +
+                  parseInt(8) +
+                  parseInt(7) +
+                  parseInt(1) +
+                  parseInt(6)
+              );
+            };
+            connectToSocialMedia[2].onclick = () => {
+              window.open("", "_blank");
+            };
+
+            /*
+
+
+            */
+          </script>
+        </span>
+      </footer>
+    </main>
+  </body>
+</html>
