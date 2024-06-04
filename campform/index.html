@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css" />
+    <title>SaadsCamp</title>
+</head>
+
+<body>
+
+    <h1 id="title">Camp Job Application Form</h1>
+    <p id="description">
+        SaadsCamp Is A Tottaly Legit Camp That I Totally Didnt Make Up :)
+    </p>
+    <form id="survey-form">
+        <fieldset>
+            <!-- name -->
+            <label id="name-label" for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter Name" required />
+            <!-- email -->
+            <label id="email-label" for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter Email" required />
+            <!-- age -->
+            <label id="number-label" for="age">Age</label>
+            
+            <input type="number" id="number" name="age" min="18" max="21" placeholder="Age" />
+            <!-- role -->
+            <label id="role-label" for="role" >
+                What Role Do You Attend On Joining ?
+            </label>
+            <select id="dropdown" name="role">
+                <option selected>Select A Role</option>
+                <option value="1">Web Developer Counsellor</option>
+                <option value="2">App Developer Counsellor</option>
+                <option value="3">Game Developer Counsellor</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Are You Experienced</legend>
+            <!-- are you experienced ? -->
+            <label id="label-yes" >
+                <input type="radio" name="experienced" value="yes" checked /> Yes
+            </label>
+            <label id="label-no">
+                <input type="radio" name="experienced" value="no" /> No
+            </label>
+        </fieldset>
+        <!-- traits -->
+        <fieldset>
+            <legend>Do You These Traits ?</legend>
+            <!-- Question #1 -->
+            <label for="good-with-kids">Are You Good With Kids ?</label>
+            <input id="traits-chbx" type="checkbox" name="good-with-kids" value="yes" />Yes        
+            <input id="traits-chbx" type="checkbox" name="good-with-kids" value="no" />No     
+            <!-- Question #2 -->
+            <label for="cheerful-person">Cheerfull Person ?</label>
+            <input id="traits-chbx" type="checkbox" name="cheerful-person" value="yes" />Yes        
+            <input id="traits-chbx" type="checkbox" name="cheerful-person" value="no" />No     
+            <!-- Question #3 -->
+            <label for="mentally-stable">Are You Mentally Stable ?</label>
+            <input id="traits-chbx" type="checkbox" name="mentally-stable" value="yes" />Yes        
+            <input id="traits-chbx" type="checkbox" name="mentally-stable" value="no" />No     
+            <!-- Question #4 -->
+            <label for="depression">Are You Depressed ?</label>
+            <input id="traits-chbx" type="checkbox" name="depression" value="yes" />Yes        
+            <input id="traits-chbx" type="checkbox" name="depression" value="no" />No        
+        </fieldset>
+
+        <fieldset>
+            <legend>Tell Us About Yourself.</legend>
+            <label for="bio">
+                Bio
+            </label>
+            <textarea id="bio" name="bio" cols="30" rows="3" placeholder="Your Bio" required></textarea>
+        </fieldset>
+        
+        <button id="submit" type="submit" name="submit">Sumbit</button>
+
+
+    </form>
+
+
+</body>
+
+</html>
