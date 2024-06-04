@@ -1,0 +1,751 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>How To Setup HTML Document</title>
+  </head>
+  <body>
+    <div class="page-divider">
+      <!-- navbar -->
+      <nav id="navbar">
+        <!-- header -->
+        <header class="nav-header">
+          <h1 id="nav-header-h">HTML Documentation</h1>
+        </header>
+        <!-- links -->
+        <!-- intro -->
+        <a href="#Introduction" class="nav-link" id="nav-link-1">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-1">
+            Introduction
+          </h2>
+        </a>
+        <!-- HTML basics -->
+        <a href="#HTML_Basics" class="nav-link" id="nav-link-3">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-3">
+            HTML Basics
+          </h2>
+        </a>
+        <!-- doctype -->
+        <a href="#Doctype" class="nav-link" id="nav-link-4">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-4">
+            DOCTYPE
+          </h2>
+        </a>
+        <!-- html tag -->
+        <a href="#HTML" class="nav-link" id="nav-link-5">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-5">
+            HTML
+          </h2>
+        </a>
+        <!-- head tag -->
+        <a href="#Head" class="nav-link" id="nav-link-6">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-6">
+            HEAD
+          </h2>
+        </a>
+        <!-- body tag -->
+        <a href="#Body" class="nav-link" id="nav-link-7">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-7">
+           Body
+          </h2>
+        </a>
+        <!-- h1 tag -->
+        <a href="#Headings" class="nav-link" id="nav-link-8">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-8">Headings</h2>
+        </a>
+        <!-- p tag -->
+        <a href="#Paragraphs" class="nav-link" id="nav-link-9">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-9">Paragraphs</h2>
+        </a>
+        <!-- reference tag -->
+        <a href="#Reference" class="nav-link" id="nav-link-9">
+          <h2 class="nav-anchor-link-h" id="nav-anchor-link-h-9">Reference</h2>
+        </a>
+      </nav>
+      <!-- main-content -->
+      <main id="main-doc">
+        <!-- intro section -->
+        <section class="main-section" id="Introduction">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">Introduction</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">Welcome To We Develpment !</legend>
+            What's up new dev, get ready ebcause this docs will give you a basic
+            foundation on learning the simple rules on HTML. So you can start
+            making your own web pages. So lets get straight into it !
+          </p>
+          <!-- list -->
+          <ul class="section-ul">
+            <legend class="section-legend">What is HTML</legend>
+            <!--  tags -->
+            <li class="section-li">
+              <legend class="section-legend indent">
+                What does HTML stand for ?
+              </legend>
+              HTML stnds for Hyper Text Markup Language, meaning a markup
+              language not a progeamming language, THERE DIFFERENT THINGS !!!
+            </li>
+            <!-- tags -->
+            <li class="section-li">
+              <legend class="section-legend indent">
+                What is HTML used for ?
+              </legend>
+              HTML is used to build the front end for a web page.
+            </li>
+            <li class="section-li">
+              <legend class="section-legend indent">HTML VS XML/XAML</legend>
+              XML & XAML are used to build Applications, while HTML is used to
+              build application that run over a browser.
+            </li>
+            <li class="section-li">
+              <legend class="section-legend indent">Good Luck !!!</legend>
+              Now its up to you to master the basics of HTML. I hope you the
+              best of luck. GOOD LUCK !!!
+            </li>
+          </ul>
+        </section>
+
+        <!-- html basics section -->
+        <section class="main-section" id="HTML_Basics">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">HTML Basics</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">HTML Elements</legend>
+            HTML elements are the building the blocks of the web literally. Now
+            there are over 115 tags as of HTML 5.2 (the latest version of html).
+            But dont worry you dont have to remember every single tag on hand,
+            also in this doc we will only be talking about the some of the most
+            simple basic but most important tags that are the foundation on any
+            site.
+          </p>
+          <!-- list -->
+          <ul class="section-ul">
+            <legend class="section-legend">Elements (Tags)</legend>
+            <!--  tags -->
+            <li class="section-li">
+              <legend class="section-legend indent">Manual Closing Tags</legend>
+              A manual closing tag is a tag that you have to close by adding a
+              the same tage but with a "/" infront of it. Heres an example:
+              <div class="code-section-container">
+                <code class="code-section">
+                  // Elements like div, h1...h2, span, p, body and etc... follow
+                  this rule. But you can technially you dont need to not use an
+                  automatic closing tag for these but it can lead to many bugs,
+                  so just dont do it.
+                  <span class="code-section-code-text"
+                    >&lt;element&gt;&lt;/element&gt;</span
+                  >
+                </code>
+              </div>
+            </li>
+            <!-- tags -->
+            <li class="section-li">
+              <legend class="section-legend indent">Auto Closing Tags</legend>
+              An auto closing tag will just include of the tag that you wanted
+              to use and a "/" after the elements string (all a string is, is a
+              group of characters). Heres an example:
+              <!-- code example for auto closing tag -->
+              <div class="code-section-container">
+                <code class="code-section"
+                  >// Elements like br, input and etc. can have a />; and not
+                  have to many bugs
+                  <span class="code-section-code-text">&lt;element /&gt;</span>
+                </code>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- doctype section -->
+        <section class="main-section" id="Doctype">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">Doctype</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">What is the DOCTYPE tag</legend>
+            The doctype tag is followed by the html attribute html. This will
+            make it that the document is an html docuement, that can read HTML
+            code.
+          </p>
+          <!-- list -->
+          <ul class="section-ul">
+            <li class="section-li">
+              <legend class="section-legend">Syntax</legend>
+              <div class="code-section-container">
+                <code class="code-section">
+                  // This will dieclare that the file exention can read HTML
+                  <span class="code-section-code-text"
+                    >&lt;!DOCTYPE html&gt;</span
+                  >
+                </code>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- html section -->
+        <section class="main-section" id="HTML">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">HTML</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">The HTML Tags Purpose</legend>
+            The HTML tag is where all of your html code will go, for example
+            navbars, videos, divs and etc... Heres how you do it:
+          </p>
+          <!-- steps for html tag -->
+          <ul class="section-ul">
+            <!-- declare the html tag -->
+            <li class="section-li no-disc larger-text">
+              <legend class="section-legend">
+                Start By adding the html tag
+              </legend>
+              <div class="code-section-container">
+                <code class="code-section">
+                  <legend class="section-legend">Syntax</legend>
+                  &lt;html&gt;...&lt;/html&gt;
+                </code>
+              </div>
+            </li>
+            <!-- add the lang atrribute with the value of en  -->
+            <li class="section-li no-disc larger-text">
+              <legend class="section-legend">
+                Now all we have to do is add the lang attribute with the value
+                of "en". This will make the document an english one.
+              </legend>
+              <div class="code-section-container">
+                <code class="code-section">
+                  <legend class="section-legend">Syntax</legend>
+                  &lt;html lang="en"&gt;...&lt;/html&gt;
+                </code>
+              </div>
+            </li>
+            <!--
+               make sure that every tag exept for the doctype is nested into the html tag
+               -->
+            <li class="section-li no-disc larger-text">
+              <legend class="section-legend">
+                Finnaly just remember to add all of your code nested into the
+                html tag that isnt your doctype.
+              </legend>
+              <div class="code-section-container">
+                <code class="code-section">
+                  <legend class="section-legend">Syntax</legend>
+                  &lt;html lang="en"&gt;<br /><span class="indent-left"
+                    >.....</span
+                  ><br /><span class="indent-left">.....</span><br />
+                  <span class="indent-left">.....</span><br />
+                  &lt;/html&gt;
+                </code>
+              </div>
+            </li>
+          </ul>
+
+          <figure class="section-img-container" id="nesting_img">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1lKeyRlUeIfu4c26D56gvzANPjT5kx4XEw&s"
+              alt="Nesting Example"
+              class="section-img"
+              id="nesting-img"
+            />
+            <figcaption id="nesting-img-caption">
+              This image was created by
+              <a href="www.geeksforgeeks.org" class="reference-link"
+                >GeeksForGeeks</a
+              >. And what it is, is a Nesting Example.
+            </figcaption>
+            <script>
+              const nestingImg = document.getElementById("nesting_img");
+              nestingImg.onclick = () => {
+                window.open(
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe1lKeyRlUeIfu4c26D56gvzANPjT5kx4XEw&s",
+                  "_blank"
+                );
+              };
+            </script>
+          </figure>
+        </section>
+
+        <!-- head section -->
+        <section class="main-section" id="Head">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">Head</h2>
+          </header>
+
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">The Head Tags Purpose</legend>
+            The &lt;head&gt; tag is where you manage things like the title of
+            the page and what to connect to and import. for example fonts,
+            icons, styling pages and etc...
+          </p>
+          <!-- steps for head tag -->
+          <ul class="section-ul">
+            <!-- step 1 -->
+            <li class="section-li">
+              <legend class="section-legend">Step 1:</legend>
+              Start by adding the HTML tag head <b>inside</b> of your html tag.
+              <div class="code-section-container">
+                <legend class="section-legend">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left">
+                    <!-- html tag  -->
+                    &lt;html&gt; </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent">
+                      &lt;head&gt; ... &lt;/head&gt;
+                    </span> </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- html closing tag  -->
+                    &lt;/html&gt; </span
+                  ><br />
+                </code>
+              </div>
+            </li>
+            <!-- step 2 -->
+            <li class="section-li">
+              <legend class="section-legend">Step 2:</legend>
+              Add a &lt;meta /&gt;Meta tags are HTML elements that provide
+              information about a web page's content to search engines and
+              browsers, influencing its indexing, display, and search ranking
+              <div class="code-section-container">
+                <legend class="section-legend">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left">
+                    <!-- html tag  -->
+                    &lt;head&gt; </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent"> &lt;meta /&gt;</span> </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- html closing tag  -->
+                    &lt;/head&gt; </span
+                  ><br />
+                </code>
+              </div>
+              <!-- sub list what explain meta tag -->
+              <ul class="section-ul sub-section-ul">
+                <li class="section-li">
+                  <legend class="section-legend">
+                    Charsets - Charsets in HTML specify the character encoding
+                    used to interpret and display text, ensuring proper
+                    rendering of international characters and symbols on web
+                    pages.
+                  </legend>
+                  <!-- 1 -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      UTF-8 is the most widely used character encoding for the
+                      web. It can represent every character in the Unicode
+                      character set
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="UTF-8" /&gt;
+                    </code>
+                  </div>
+                  <!-- 2 -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      Also known as Latin-1, this encoding covers Western
+                      European languages, including characters used in English,
+                      French, German, and Spanish.
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="ISO-8859-1" /&gt;
+                    </code>
+                  </div>
+                  <!-- 3 -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      An encoding capable of representing all Unicode
+                      characters. It exists in two forms: Big Endian (UTF-16BE)
+                      and Little Endian (UTF-16LE).
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="UTF-16" /&gt;
+                    </code>
+                  </div>
+                  <!-- 4 -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      A character encoding used by Microsoft Windows for Western
+                      European languages. It is a superset of ISO-8859-1 with
+                      additional characters.
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="Windows-1252" /&gt;
+                    </code>
+                  </div>
+                  <!-- 5 -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      Also known as Latin-2, this encoding supports Central and
+                      Eastern European languages, such as Polish, Czech, and
+                      Hungarian.
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="ISO-8859-2" /&gt;
+                    </code>
+                  </div>
+                  <!-- 6  -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      Similar to ISO-8859-1 but includes additional characters,
+                      such as the euro sign (€) and other characters missing
+                      from ISO-8859-1.
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="ISO-8859-15" /&gt;
+                    </code>
+                  </div>
+
+                  <!-- 7 -->
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">
+                      <!-- description -->
+                      A character encoding for Japanese, which includes a mix of
+                      single-byte and double-byte characters.
+                    </legend>
+                    <code class="code-section">
+                      <legend class="section-legend">Syntax</legend>
+                      &lt;meta charset="Shift_JIS" /&gt;
+                    </code>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <!-- step 3 -->
+            <li class="section-li">
+              <legend class="section-legend">Step 3:</legend>
+              Add a UTF-8 meta tag inside of your &lt;head&gt;
+              <div class="code-section-container">
+                <legend class="section-legend">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left">
+                    <!-- html tag  -->
+                    &lt;head&gt; </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent">
+                      &lt;meta charset="UTF-8" /&gt;</span
+                    > </span
+                  ><br />
+
+                  <span class="indent-left">
+                    <!-- html closing tag  -->
+                    &lt;/head&gt; </span
+                  ><br />
+                </code>
+              </div>
+            </li>
+
+            <!-- step 4 -->
+            <li class="section-li">
+              <legend class="section-legend">Step 4:</legend>
+              Add a title tag inside of your &lt;head&gt;
+              <div class="code-section-container">
+                <legend class="section-legend">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left">
+                    <!-- html tag  -->
+                    &lt;head&gt; </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent">
+                      &lt;meta charset="UTF-8" /&gt;</span
+                    > </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent">
+                      &lt;title&gt;My Awesome Site&lt;/title&gt;</span
+                    > </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- html closing tag  -->
+                    &lt;/head&gt; </span
+                  ><br />
+                </code>
+              </div>
+            </li>
+          </ul>
+          <marquee>
+            <h1 class="section-p">
+              Congrats, you just made your head, for your page !!!
+            </h1>
+          </marquee>
+        </section>
+
+        <!-- body section -->
+        <section class="main-section" id="Body">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">BODY</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">The &lt;body&gt; tag:</legend>
+            is where you place all of your elements such as the navbar,
+            main-content and etc..
+          </p>
+          <p class="section-p">
+            *Also everything you want the user to be able see should be here.
+          </p>
+          <!-- list -->
+          <ul class="section-ul">
+            <legend class="section-legend">How use it</legend>
+            <li class="section-li">
+              <div class="code-section-container">
+                <legend class="section-legend small-text">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left">
+                    <!-- html tag  -->
+                    &lt;body&gt; </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent"> ......</span> </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- add head tag  -->
+                    <span class="sub-indent"> ......</span> </span
+                  ><br />
+                  <span class="indent-left">
+                    <!-- html closing tag  -->
+                    &lt;/body&gt; </span
+                  ><br />
+                </code>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- h1 section -->
+        <section class="main-section" id="Headings">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">Headings</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">The &lt;h1&gt;:</legend>
+            Is how you create a heading, for your page. This is usally placed
+            above paragraphs.
+          </p>
+
+          <ul class="section-ul">
+            <li>
+              <legend class="section-legend">How to use it.</legend>
+              <div class="code-section-container">
+                <legend class="section-legend small-text">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left"
+                    >&lt;h1&gt; Rabbits Rule ! &lt;/h1&gt;</span
+                  >
+                </code>
+              </div>
+            </li>
+          </ul>
+
+          <p class="section-p">
+            <legend class="section-legend">
+              How to manipulate the headings (h) size:
+            </legend>
+            You can manipulate the size by switching integer after h
+          </p>
+          <ul class="section-ul no-disc">
+            <li class="section-li">
+              To increase the heading size. use a smaller number.
+              <ul class="section-ul no-disc">
+                <legend class="section-legend">For Example:</legend>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h1&gt;&lt;/h1&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h2&gt;&lt;/h2&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h3&gt;&lt;/h3&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h4&gt;&lt;/h4&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h5&gt;&lt;/h5&gt; </span>
+                    </code>
+                  </div>
+                </li>
+              </ul>
+            </li>
+            <li class="section-li">
+              To decrease the heading size. use a larger number
+              <ul class="section-ul no-disc">
+                <legend class="section-legend">For Example:</legend>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h6&gt;&lt;/h6&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h7&gt;&lt;/h7&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h8&gt;&lt;/h8&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h9&gt;&lt;/h9&gt; </span>
+                    </code>
+                  </div>
+                </li>
+                <li class="section-li">
+                  <div class="code-section-container">
+                    <legend class="section-legend small-text">Syntax</legend>
+                    <code class="code-section">
+                      <span class="indent-left"> &lt;h10&gt;&lt;/h10&gt; </span>
+                    </code>
+                  </div>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+
+        <!-- p section -->
+        <section class="main-section" id="Paragraphs">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">Paragraphs</h2>
+          </header>
+          <!-- p -->
+          <p class="section-p">
+            <legend class="section-legend">How to use it.</legend>
+            Paragraphs are fairly simple to understand if you read about the h1,
+            for example unlike the h1 element it doesnt need or even have a
+            number after it or anything like. you just declare the element. and
+            write a paragraph in it.
+          </p>
+          <!-- list -->
+          <ul class="section-ul">
+            <li class="section-li">
+              <legend class="section-legend">
+                So how do you declare a paragraph
+              </legend>
+              <div class="code-section-container">
+                <legend class="section-legend">Syntax</legend>
+                <code class="code-section">
+                  <span class="indent-left">&lt;p&gt;</span><br />
+                  <span class="indent-left"
+                    ><span class="sub-indent"
+                      >Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    </span></span
+                  ><br />
+                  <span class="indent-left">&lt;/p&gt;</span><br />
+                </code>
+              </div>
+            </li>
+          </ul>
+        </section>
+
+        <!-- html section -->
+        <section class="main-section" id="Reference">
+          <!-- header -->
+          <header class="main-section-header">
+            <h2 class="main-section-header">Reference</h2>
+          </header>
+          <p class="section-p">
+            <b><em>Data</em></b> was provided by the following sites:
+            <ul class="section-ul">
+              <li class="section-li">
+                <a href="https://www.w3schools.com/" id="references" target="_blank">w3schools</a>
+              </li>
+              <li class="section-li">
+                <a href="https://www.w3schools.com/" id="references" target="_blank">Freecodecamp</a>
+              </li>
+              <li class="section-li">
+                <a href="https://www.w3schools.com/" id="references" target="_blank">ChatGPT</a>
+              </li>
+              
+            </ul>
+          </p>
+
+          </section>
+
+          <footer id="footer">
+           <a href="https://github.com/AlexIsTripping/my-Freecodecamp-prject" target="_blank">Created by Saadya Meegan</a>            
+          </footer>
+
+      </main>
+    </div>
+  </body>
+</html>
