@@ -1,0 +1,67 @@
+/* logo */
+@keyframes logoPfp {
+  0% {
+    width: 10%;
+    background: linear-gradient(
+      45deg,
+      var(--logo-color-color1) 0%,
+      var(--logo-color-color1) 10%
+    );
+  }
+  10% {
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 20%;
+  }
+  25% {
+    width: 25%;
+    background: linear-gradient(
+      45deg,
+      var(--logo-color-color1) 0%,
+      var(--logo-color-color2) 10%,
+      var(--logo-color-color2) 25%
+    );
+  }
+  35% {
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 50%;
+  }
+  50% {
+    width: 50%;
+    background: linear-gradient(
+      45deg,
+      var(--logo-color-color1) 0%,
+      var(--logo-color-color2) 10%,
+      var(--logo-color-color1) 25%,
+      var(--logo-color-color1) 50%
+    );
+  }
+  65% {
+    border-bottom-right-radius: 20%;
+    border-top-right-radius: 50%;
+  }
+
+  75% {
+    width: 75%;
+    background: linear-gradient(
+      45deg,
+      var(--logo-color-color1) 0%,
+      var(--logo-color-color2) 10%,
+      var(--logo-color-color1) 25%,
+      var(--logo-color-color2) 50%,
+      var(--logo-color-color2) 75%
+    );
+  }
+
+  100% {
+    width: 60%;
+    background: linear-gradient(
+      45deg,
+      var(--logo-color-color1) 0%,
+      var(--logo-color-color2) 10%,
+      var(--logo-color-color1) 25%,
+      var(--logo-color-color2) 50%,
+      var(--logo-color-color2) 75%,
+      var(--logo-color-color2) 100%
+    );
+  }
+};

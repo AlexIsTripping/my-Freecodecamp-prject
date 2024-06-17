@@ -1,0 +1,23 @@
+/* Variables  */
+:root {
+    /* logo */
+    --logo-color-color1: #151515;
+    --logo-color-color2: #3c0303;
+  
+    
+    /* about heading */
+    --about-bg-color-color1: #151515;
+    --about-bg-color-color2: #3c0303;
+    --about-bg-color-color3: #830202;
+    --about-bg-color-color4: #c40808;
+    
+    --text-heading-color: #7b0404;
+    --text-sub-heading-color: #5d0101;
+
+
+
+    /* work data */
+    --work-color1: #737373; 
+    --work-color2: #333333; 
+
+  }

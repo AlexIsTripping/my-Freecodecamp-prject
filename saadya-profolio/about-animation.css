@@ -1,0 +1,80 @@
+/* About Section Animated Background  */
+@keyframes AboutSection {
+  0% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color1),
+      var(--about-bg-color-color2)
+    );
+  }
+  10% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color2),
+      var(--about-bg-color-color1)
+    );
+  }
+  20% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color1),
+      var(--about-bg-color-color2)
+    );
+  }
+  30% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color2),
+      var(--about-bg-color-color1)
+    );
+  }
+  40% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color1),
+      var(--about-bg-color-color2)
+    );
+  }
+  50% {
+    background: linear-gradient(
+      to bottom right,
+      var(--logo-color-color2),
+      var(--logo-color-color1)
+    );
+  }
+  60% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color1),
+      var(--about-bg-color-color2)
+    );
+  }
+  70% {
+    background: linear-gradient(
+      to bottom right,
+      var(--logo-color-color2),
+      var(--logo-color-color1)
+    );
+  }
+  80% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color1),
+      var(--about-bg-color-color2)
+    );
+  }
+  90% {
+    background: linear-gradient(
+      to bottom right,
+      var(--logo-color-color2),
+      var(--logo-color-color1)
+    );
+  }
+  100% {
+    background: linear-gradient(
+      to bottom right,
+      var(--about-bg-color-color1),
+      var(--about-bg-color-color2)
+    );
+  }
+}

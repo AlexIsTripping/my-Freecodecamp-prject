@@ -1,0 +1,214 @@
+// styles
+
+
+
+
+
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio - Saadya Meegan</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <header class="header">
+      <!-- logo -->
+      <section class="header-container">
+        <figure class="header-logo-container">
+          <img src="./imgs/pfp.png" alt="Logo" id="nav-logo" />
+          <figcaption class="oxanium">Saadya Meegan</figcaption>
+        </figure>
+        <script>
+          // redirect to guthub
+          const redirectToGitHubPage = document.getElementById("nav-logo");
+          redirectToGitHubPage.onclick = () => {
+            window.open(
+              "https://github.com/AlexIsTripping/my-Freecodecamp-projects",
+              "_blank"
+            );
+          };
+        </script>
+      </section>
+
+      <section class="header-container">
+        <!-- anchors -->
+        <nav class="header-nav-container" id="navbar">
+          <ul class="nav-anchor-links-list">
+            <li class="nav-anchor-link-list">
+              <a
+                target="_self"
+                href="#welcome-section"
+                class="nav-anchor-link oxanium"
+                >About</a
+              >
+            </li>
+            <li class="nav-anchor-link-list">
+              <a target="_self" href="#work" class="nav-anchor-link oxanium"
+                >Work</a
+              >
+            </li>
+            <li class="nav-anchor-link-list">
+              <a target="_self" href="#contact" class="nav-anchor-link oxanium"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <!-- main content -->
+    <main class="main-content">
+      <!-- title -->
+      <section class="main-section main-section-about" id="welcome-section">
+        <!--header  -->
+        <header class="main-section-header header-about">
+          <h2 class="main-section-heading welcome-heading text-center">
+            Hello My Name Is
+          </h2>
+          <h2
+            class="main-section-header welcome-heading main-section-header-heading-name text-left"
+          >
+            Saadya M.
+          </h2>
+          <h4 class="main-section-sub-heading welcome-sub-heading text-right">
+            --Web developer
+          </h4>
+        </header>
+      </section>
+      <!-- works section  -->
+      <section class="main-section" id="work">
+        <!-- header -->
+        <header class="main-section-header">
+          <h2 class="main-section-heading">My Projects</h2>
+        </header>
+        <!-- content  -->
+        <div class="project-wrapper">
+          <!-- cards -->
+          <div class="project-card-container" id="project-card-1">
+            <figure class="project-card-img-container">
+              <!-- main -->
+              <img
+                src="./imgs/project-imgs/brainfuck-logo.png"
+                alt="Brainfuck Project"
+                class="project-card-img primary-img"
+                id="brainfuck-img-1"
+              />
+              <!-- sub imgs -->
+              <img
+                src="./imgs/project-imgs/brainfuck-1.png"
+                alt="Brainfuck Project"
+                class="project-card-img sub-img"
+                id="brainfuck-img-2"
+              />
+              <img
+                src="./imgs/project-imgs/brainfuck-2.png"
+                alt="Brainfuck Project"
+                class="project-card-img sub-img"
+                id="brainfuck-img-3"
+              />
+              <figcaption>Brainfuck</figcaption>
+            </figure>
+          </div>
+          <div class="project-card-container" id="project-card-2">
+            <figure class="project-card-img-container">
+              <!-- main -->
+              <img
+                src="./imgs/project-imgs/htmldocs-logo.png"
+                alt="HTMLDocs Project"
+                class="project-card-img primary-img"
+                id="htmldocs-img-1"
+              />
+              <!-- sub imgs -->
+              <img
+                src="./imgs/project-imgs/htmldocs-1.png"
+                alt="HTMLDocs Project"
+                class="project-card-img sub-img"
+                id="htmldocs-img-2"
+              />
+              <img
+                src="./imgs/project-imgs/htmldocs-2.png"
+                alt="HTMLDocs Project"
+                class="project-card-img sub-img"
+                id="htmldocs-img-3"
+              />
+              <img
+                src="./imgs/project-imgs/htmldocs-3.png"
+                alt="HTMLDocs Project"
+                class="project-card-img sub-img"
+                id="htmldocs-img-4"
+              />
+              <figcaption>HTMLDocs</figcaption>
+            </figure>
+          </div>
+          <div class="project-card-container" id="project-card-3">
+            <figure class="project-card-img-container">
+              <!-- main -->
+              <img
+                src="./imgs/project-imgs/geotutes-logo.png"
+                alt="Geotutes Project"
+                class="project-card-img primary-img"
+                id="geotutes-img-1"
+              />
+              <!-- sub imgs -->
+              <img
+                src="./imgs/project-imgs/geotutes-1.png"
+                alt="Geotutes Project"
+                class="project-card-img sub-img"
+                id="geotutes-img-2"
+              />
+              <img
+                src="./imgs/project-imgs/geotutes-2.png"
+                alt="Geotutes Project"
+                class="project-card-img sub-img"
+                id="geotutes-img-3"
+              />
+              <img
+                src="./imgs/project-imgs/geotutes-3.png"
+                alt="Geotutes Project"
+                class="project-card-img sub-img"
+                id="geotutes-img-4"
+              />
+              <figcaption>Geotutes</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+      
+      <!-- contact -->
+      <section class="main-section" id="contact">
+
+      </section>
+      
+
+
+    </main>
+
+    <script src="./work-cards.js"></script>
+  </body>
+</html>

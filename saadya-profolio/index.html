@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Anton%7CBaskervville%7CRaleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Space+Grotesk&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Portfolio - Saadya Meegan</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <header class="header">
+      <!-- logo -->
+      <section class="header-container">
+        <figure class="header-logo-container">
+          <img src="./imgs/pfp.png" alt="Logo" id="nav-logo" />
+          <figcaption class="oxanium">Saadya Meegan</figcaption>
+        </figure>
+        <script>
+          // redirect to guthub
+          const redirectToGitHubPage = document.getElementById("nav-logo");
+          redirectToGitHubPage.onclick = () => {
+            window.open(
+              "https://github.com/AlexIsTripping/my-Freecodecamp-projects",
+              "_blank"
+            );
+          };
+        </script>
+      </section>
+
+      <section class="header-container">
+        <!-- anchors -->
+        <nav class="header-nav-container" id="navbar">
+          <ul class="nav-anchor-links-list">
+            <li class="nav-anchor-link-list">
+              <a
+                target="_self"
+                href="#welcome-section"
+                class="nav-anchor-link oxanium"
+                >About</a
+              >
+            </li>
+            <li class="nav-anchor-link-list">
+              <a target="_self" href="#work" class="nav-anchor-link oxanium"
+                >Work</a
+              >
+            </li>
+            <li class="nav-anchor-link-list">
+              <a target="_self" href="#contact" class="nav-anchor-link oxanium"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+    </header>
+    <!-- main content -->
+    <main class="main-content">
+      <!-- title -->
+      <section class="main-section main-section-about" id="welcome-section">
+        <!--header  -->
+        <header class="main-section-header header-about">
+          <h2 class="main-section-heading welcome-heading text-center">
+            Hello My Name Is
+          </h2>
+          <h2
+            class="main-section-header welcome-heading main-section-header-heading-name text-left"
+          >
+            Saadya M.
+          </h2>
+          <h4 class="main-section-sub-heading welcome-sub-heading text-right">
+            --Web developer
+          </h4>
+        </header>
+      </section>
+      <!-- my  projects -->
+      <section class="main-section" id="work">
+        <header class="main-section-header">
+          <h2 class="main-section-heading">My Projects</h2>
+        </header>
+        <span class="project-cards-wrapper">
+          <span class="project-card project-card-1">
+            <figure class="project-card-img-container">
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/brianfuck -  logo.png"
+                alt="BrainFuck Slide 1"
+                id="project-card-1-img-1"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/brainfuck - 1.png"
+                alt="BrainFuck Slide 2"
+                id="project-card-1-img-2"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/brainfuck - 2.png"
+                alt="BrainFuck Slide 3"
+                id="project-card-1-img-3"
+              />
+
+              <figcaption>Brainfuck Project</figcaption>
+            </figure>
+          </span>
+          <span class="project-card project-card-2">
+            <figure class="project-card-img-container">
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/htmldocs - logo.png"
+                alt="HTMLDocs Slide 1"
+                id="project-card-2-img-1"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/htmldocs - 1.png"
+                alt="HTMLDocs Slide 2"
+                id="project-card-2-img-2"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/htmldocs - 2.png"
+                alt="HTMLDocs Slide 3"
+                id="project-card-2-img-3"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/htmldocs - 3.png"
+                alt="HTMLDocs Slide 4"
+                id="project-card-2-img-4"
+              />
+
+              <figcaption>HTMLDocs Project <i ></i></figcaption>
+            </figure>
+          </span>
+          <span class="project-card project-card-3">
+            <figure class="project-card-img-container">
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/Geotutes - logo.png"
+                alt="Geotutes Slide 1"
+                id="project-card-3-img-1"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/Geotutes - 1.png"
+                alt="Geotutes Slide 2"
+                id="project-card-3-img-2"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/Geotutes - 2.png"
+                alt="Geotutes Slide 3"
+                id="project-card-3-img-3"
+              />
+              <img
+                class="project-card-img"
+                src="./imgs/project-imgs/Geotutes - 3.png"
+                alt="Geotutes Slide 4"
+                id="project-card-3-img-4"
+              />
+              <figcaption>Geotutes Project</figcaption>
+            </figure>
+          </span>
+        </span>
+      </section>
+      <!-- contact -->
+      <section class="main-section" id="contact">
+        <header class="main-section-header">
+          <h2 class="main-section-heading" id="contact-me-header">
+            Contact Me.
+          </h2>
+        </header>
+        <span class="contact-socials-wrapper">
+          <span class="contact-social-container contact-social-1-card">
+            <i class="contact-social-icon fab fa-github"></i>
+            <p class="contact-social-p">Github</p>
+          </span>
+          <span class="contact-social-container contact-social-2-card">
+            <i class="contact-social-icon fab fa-facebook"></i>
+            <p class="contact-social-p">Twitter</p>
+          </span>
+          <span class="contact-social-container contact-social-3-card">
+            <i class="contact-social-icon fab fa-patreon"></i>
+            <p class="contact-social-b">Patreon</p>
+          </span>
+          <span class="contact-social-container contact-social-4-card">
+            <i class="contact-social-icon fas fa-envelope"></i>
+            <p class="contact-social-b">Gmail</p>
+          </span>
+          <script>
+            const contactMeOnMySocialsBtnLol = [
+              document.querySelector(".contact-social-1-card"),
+              document.querySelector(".contact-social-2-card"),
+              document.querySelector(".contact-social-3-card"),
+              document.querySelector(".contact-social-4-card")
+            ];
+            contactMeOnMySocialsBtnLol[0].onclick = () => {
+              window.open('https://github.com/AlexIsTripping/my-Freecodecamp-projects');
+            }
+            contactMeOnMySocialsBtnLol[1].onclick = () => {
+              window.open('https://x.com/SaadsIsTripping');
+            }
+            contactMeOnMySocialsBtnLol[2].onclick = () => {
+              window.open('https://www.patreon.com/user?u=130428253', '_blank');
+            }
+            contactMeOnMySocialsBtnLol[3].onclick = () => {
+              window.open('https://www.snmeeg@gmail.com', '_blank');
+            }
+
+          </script>
+        </span>
+      </section>
+
+      <footer class="--footer oxanium" id="footer">
+        <span class="flex_container">
+          <span class="footer_logo_icon_container">
+            <img
+              src="./imgs/pfp.png"
+              alt="Logo icon"
+              id="footer_logo_icon"
+              width="100%"
+            />
+            <script>
+              footerLogoIcon = document.getElementById("footer_logo_icon");
+              footerLogoIcon.onclick = () => {
+                window.location.href = "./index.php";
+              };
+            </script>
+          </span>
+          <!-- copywrite -->
+          <span class="footer_copywrite_container">
+            <p id="footer_copywrite" class="oxanium">
+              © Saadya's Portfolio, 2024
+            </p>
+          </span>
+        </span>
+        <span class="footer_contact_btn_container">
+          <button id="footer_donate_btn" class="oxanium" type="button">
+            Donate
+          </button>
+          <script>
+            const footerDonateBtn = document.getElementById("footer_donate_btn");
+            footerDonateBtn.onclick = () => {
+              window.open('https://www.patreon.com/user?u=130428253&fan_landing=true&view_as=public', '_blank')
+            };
+          </script>
+        </span>
+      </footer>
+    </main>
+
+    <!-- freecodecamp needs to see my code imma add it here as well but you can go to my github if you want the code -->
+    <script>
+      const projectCards = [
+        document.querySelector(".project-card-1"),
+        document.querySelector(".project-card-2"),
+        document.querySelector(".project-card-3"),
+      ];
+
+      projectCards[0].onclick = () => {
+        window.open('https://github.com/AlexIsTripping/my-Freecodecamp-projects/tree/main/brainfuck-site', '_blank');
+      }
+
+      projectCards[1].onclick = () => {
+        window.open('https://github.com/AlexIsTripping/my-Freecodecamp-projects/tree/main/html-documentation', '_blank');
+      }
+
+      projectCards[2].onclick = () => {
+        window.open('https://github.com/AlexIsTripping/my-Freecodecamp-projects/tree/main/GeoTutes', '_blank');
+      }
+
+      const proj_img_cards = [
+        [
+          document.getElementById("project-card-1-img-1"),
+          document.getElementById("project-card-1-img-2"),
+          document.getElementById("project-card-1-img-3"),
+        ],
+        [
+          document.getElementById("project-card-2-img-1"),
+          document.getElementById("project-card-2-img-2"),
+          document.getElementById("project-card-2-img-3"),
+          document.getElementById("project-card-2-img-4"),
+        ],
+        [
+          document.getElementById("project-card-3-img-1"),
+          document.getElementById("project-card-3-img-2"),
+          document.getElementById("project-card-3-img-3"),
+          document.getElementById("project-card-3-img-4"),
+        ],
+      ];
+
+      let timerForSlides = [0, 0, 0];
+      let hoverIntervals = [null, null, null];
+
+      function startTimer(cardIndex) {
+        hoverIntervals[cardIndex] = setInterval(() => {
+          timerForSlides[cardIndex]++;
+          console.log(
+            `Timer for card ${cardIndex + 1}: ${timerForSlides[cardIndex]}`
+          );
+
+          proj_img_cards[cardIndex].forEach(
+            (img) => (img.style.display = "none")
+          );
+
+          let slideIndex =
+            timerForSlides[cardIndex] % proj_img_cards[cardIndex].length;
+          proj_img_cards[cardIndex][slideIndex].style.display = "block";
+          console.log(`Show slide ${slideIndex + 1} for card ${cardIndex + 1}`);
+        }, 1000);
+      }
+
+      function stopTimer(cardIndex) {
+        clearInterval(hoverIntervals[cardIndex]);
+        proj_img_cards[cardIndex].forEach(
+          (img) => (img.style.display = "none")
+        );
+        proj_img_cards[cardIndex][0].style.display = "block";
+        timerForSlides[cardIndex] = 0;
+      }
+
+      projectCards.forEach((card, index) => {
+        card.addEventListener("mouseenter", () => startTimer(index));
+        card.addEventListener("mouseleave", () => stopTimer(index));
+      });
+    </script>
+    <!-- <script src="./work-cards.js"></script> -->
+  </body>
+</html>

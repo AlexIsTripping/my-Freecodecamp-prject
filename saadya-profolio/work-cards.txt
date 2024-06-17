@@ -1,0 +1,181 @@
+// card collage
+let BrainFuckSlide1 = document.getElementById("brainfuck-img-1");
+let BrainFuckSlide2 = document.getElementById("brainfuck-img-2");
+let BrainFuckSlide3 = document.getElementById("brainfuck-img-3");
+
+let brainFuckSlideshow = [BrainFuckSlide1, BrainFuckSlide2, BrainFuckSlide3];
+
+let workCard1 = document.getElementById("project-card-1");
+let workCard2 = document.getElementById("project-card-2");
+let workCard3 = document.getElementById("project-card-3");
+
+let workCardImg1Counter = 0;
+let hoverInterval;
+
+workCard1.addEventListener("mouseover", function () {
+  hoverInterval = setInterval(function () {
+    workCardImg1Counter++;
+    console.log("Counter:", workCardImg1Counter);
+    switch (workCardImg1Counter) {
+      case 1:
+        brainFuckSlideshow[0].style.display = "block";
+        brainFuckSlideshow[1].style.display = "none";
+        brainFuckSlideshow[2].style.display = "none";
+        break;
+      case 2:
+        brainFuckSlideshow[0].style.display = "none";
+        brainFuckSlideshow[1].style.display = "block";
+        brainFuckSlideshow[2].style.display = "none";
+        break;
+      case 3:
+        brainFuckSlideshow[0].style.display = "none";
+        brainFuckSlideshow[1].style.display = "none";
+        brainFuckSlideshow[2].style.display = "block";
+        break;
+      default:
+        brainFuckSlideshow[0].style.display = "block";
+        brainFuckSlideshow[1].style.display = "none";
+        brainFuckSlideshow[2].style.display = "none";
+        workCardImg1Counter = 0;
+        break;
+    }
+  }, 1000);
+});
+
+workCard1.onclick = () => {
+  window.open(
+    "https://github.com/AlexIsTripping/my-Freecodecamp-projects/tree/main/brainfuck-site",
+    "_blank"
+  );
+};
+
+workCard1.addEventListener("mouseout", function () {
+  clearInterval(hoverInterval);
+});
+
+// card collage
+let htmldocs1 = document.getElementById("htmldocs-img-1");
+let htmldocs2 = document.getElementById("htmldocs-img-2");
+let htmldocs3 = document.getElementById("htmldocs-img-3");
+let htmldocs4 = document.getElementById("htmldocs-img-4");
+
+let htmldocsSlideshow = [htmldocs1, htmldocs2, htmldocs3, htmldocs4];
+let workCardImg2Counter = 0;
+
+workCard2.addEventListener("mouseover", function () {
+  hoverInterval = setInterval(function () {
+    workCardImg2Counter++;
+    console.log("Counter:", workCardImg2Counter);
+    switch (workCardImg2Counter) {
+      case 1:
+        htmldocsSlideshow[0].style.display = "block";
+        htmldocsSlideshow[1].style.display = "none";
+        htmldocsSlideshow[2].style.display = "none";
+        htmldocsSlideshow[3].style.display = "none";
+        break;
+      case 2:
+        htmldocsSlideshow[0].style.display = "none";
+        htmldocsSlideshow[1].style.display = "block";
+        htmldocsSlideshow[2].style.display = "none";
+        htmldocsSlideshow[3].style.display = "none";
+        break;
+      case 3:
+        htmldocsSlideshow[0].style.display = "none";
+        htmldocsSlideshow[1].style.display = "none";
+        htmldocsSlideshow[2].style.display = "block";
+        htmldocsSlideshow[3].style.display = "none";
+        break;
+      case 4:
+        htmldocsSlideshow[0].style.display = "none";
+        htmldocsSlideshow[1].style.display = "none";
+        htmldocsSlideshow[2].style.display = "none";
+        htmldocsSlideshow[3].style.display = "block";
+        break;
+      default:
+        htmldocsSlideshow[0].style.display = "block";
+        htmldocsSlideshow[1].style.display = "none";
+        htmldocsSlideshow[2].style.display = "none";
+        htmldocsSlideshow[3].style.display = "none";
+        workCardImg2Counter = 0;
+        break;
+    }
+  }, 1000);
+});
+
+workCard2.onclick = () => {
+  window.open(
+    "https://github.com/AlexIsTripping/my-Freecodecamp-projects/tree/main/html-documentation",
+    "_blank"
+  );
+};
+
+workCard2.addEventListener("mouseout", function () {
+  clearInterval(hoverInterval);
+});
+
+// card collage
+let geotutes1 = document.getElementById("geotutes-img-1");
+let geotutes2 = document.getElementById("geotutes-img-2");
+let geotutes3 = document.getElementById("geotutes-img-3");
+let geotutes4 = document.getElementById("geotutes-img-4");
+
+let geotutesSlideshow = [geotutes1, geotutes2, geotutes3, geotutes4];
+let workCardImg3Counter = 0;
+
+workCard3.addEventListener("mouseover", function () {
+  hoverInterval = setInterval(function () {
+    workCardImg3Counter++;
+    console.log("Counter:", workCardImg3Counter);
+    switch (workCardImg3Counter) {
+      case 1:
+        geotutesSlideshow[0].style.display = "block";
+        geotutesSlideshow[1].style.display = "none";
+        geotutesSlideshow[2].style.display = "none";
+        geotutesSlideshow[3].style.display = "none";
+        break;
+      case 2:
+        geotutesSlideshow[0].style.display = "none";
+        geotutesSlideshow[1].style.display = "block";
+        geotutesSlideshow[2].style.display = "none";
+        geotutesSlideshow[3].style.display = "none";
+        break;
+      case 3:
+        geotutesSlideshow[0].style.display = "none";
+        geotutesSlideshow[1].style.display = "none";
+        geotutesSlideshow[2].style.display = "block";
+        geotutesSlideshow[3].style.display = "none";
+        break;
+      case 4:
+        geotutesSlideshow[0].style.display = "none";
+        geotutesSlideshow[1].style.display = "none";
+        geotutesSlideshow[2].style.display = "none";
+        geotutesSlideshow[3].style.display = "block";
+        break;
+      default:
+        geotutesSlideshow[0].style.display = "block";
+        geotutesSlideshow[1].style.display = "none";
+        geotutesSlideshow[2].style.display = "none";
+        geotutesSlideshow[3].style.display = "none";
+        workCardImg3Counter = 0;
+        break;
+    }
+  }, 1000);
+});
+
+workCard3.onclick = () => {
+  window.open(
+    "https://github.com/AlexIsTripping/my-Freecodecamp-projects/tree/main/html-documentation",
+    "_blank"
+  );
+};
+
+workCard3.addEventListener("mouseout", function () {
+  clearInterval(hoverInterval);
+});
+
+
+
+// if (brainFuckSlideshow[0].style.display = 'block' == true) {
+
+
+// }
